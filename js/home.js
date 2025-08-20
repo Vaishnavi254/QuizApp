@@ -226,7 +226,7 @@ function checkComputer() {
 function renderGKQuestion(){
     let no = 1;
     $.ajax({
-        url: 'data/GK.json',
+        url: 'data/gk.json',
         type: 'GET',
         success: function (data) {
             quizGKData = data; // save for later use
