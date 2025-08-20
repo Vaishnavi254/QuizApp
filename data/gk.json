@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Who is known as the Father of the Nation in India?",
+    "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Subhas Chandra Bose", "Sardar Patel"],
+    "answer": "Mahatma Gandhi"
+  },
+  {
+    "question": "Which is the largest continent in the world?",
+    "options": ["Africa", "Asia", "Europe", "Australia"],
+    "answer": "Asia"
+  },
+  {
+    "question": "Which is the longest river in the world?",
+    "options": ["Amazon", "Nile", "Yangtze", "Ganga"],
+    "answer": "Nile"
+  },
+  {
+    "question": "Which country invented the telephone?",
+    "options": ["USA", "UK", "Canada", "Germany"],
+    "answer": "USA"
+  },
+  {
+    "question": "What is the national currency of Japan?",
+    "options": ["Yuan", "Yen", "Won", "Dollar"],
+    "answer": "Yen"
+  },
+  {
+    "question": "In which year did India get independence?",
+    "options": ["1945", "1946", "1947", "1948"],
+    "answer": "1947"
+  },
+  {
+    "question": "Who wrote 'Discovery of India'?",
+    "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Subhas Chandra Bose", "Rabindranath Tagore"],
+    "answer": "Jawaharlal Nehru"
+  },
+  {
+    "question": "Which is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Arctic Ocean"],
+    "answer": "Pacific Ocean"
+  },
+  {
+    "question": "Where are the Ajanta Caves located?",
+    "options": ["Madhya Pradesh", "Maharashtra", "Odisha", "Rajasthan"],
+    "answer": "Maharashtra"
+  },
+  {
+    "question": "Which is the smallest state in India by area?",
+    "options": ["Sikkim", "Goa", "Tripura", "Nagaland"],
+    "answer": "Goa"
+  }
+]

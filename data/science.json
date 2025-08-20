@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": ["H2O", "O2", "CO2", "HO2"],
+    "answer": "H2O"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What is the speed of light in vacuum?",
+    "options": ["3 × 10^8 m/s", "1 × 10^6 m/s", "5 × 10^7 m/s", "9 × 10^9 m/s"],
+    "answer": "3 × 10^8 m/s"
+  },
+  {
+    "question": "Which part of the plant conducts photosynthesis?",
+    "options": ["Root", "Leaf", "Stem", "Flower"],
+    "answer": "Leaf"
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Chloroplast", "Cytoplasm"],
+    "answer": "Mitochondria"
+  },
+  {
+    "question": "Which gas do humans exhale?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "answer": "Carbon dioxide"
+  },
+  {
+    "question": "Which element is used in pencils?",
+    "options": ["Lead", "Graphite", "Carbon", "Silicon"],
+    "answer": "Graphite"
+  },
+  {
+    "question": "Which vitamin is produced in the skin when exposed to sunlight?",
+    "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+    "answer": "Vitamin D"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "options": ["Heart", "Liver", "Skin", "Lungs"],
+    "answer": "Skin"
+  },
+  {
+    "question": "Which gas is essential for breathing?",
+    "options": ["Oxygen", "Carbon dioxide", "Helium", "Nitrogen"],
+    "answer": "Oxygen"
+  }
+]

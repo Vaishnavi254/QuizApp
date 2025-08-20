@@ -1,0 +1,104 @@
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f9f9ff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container */
+.quiz-container {
+  width: 90%;
+  max-width: 1200px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header */
+.heading-container {
+  background: linear-gradient(90deg, #1F41BB, #4c63d9);
+  padding: 15px 30px;
+}
+
+.heading {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+/* Categories Button */
+.categories-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.categories-btn {
+  border-radius: 30px;
+  background-color: #1F41BB;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.categories-btn:hover {
+  background-color: #324ee0;
+  transform: scale(1.05);
+}
+
+/* Main section */
+main {
+  padding: 20px;
+  background-color: #f1f4ff;
+}
+
+.catelog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+/* Category cards */
+.catelog img {
+  width: 100%;
+  max-width: 260px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #1F41BB;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.catelog img:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}

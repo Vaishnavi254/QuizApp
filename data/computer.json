@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What does CPU stand for?",
+    "options": ["Central Process Unit", "Central Processing Unit", "Computer Personal Unit", "Central Processor Utility"],
+    "answer": "Central Processing Unit"
+  },
+  {
+    "question": "Which key is used to refresh a webpage?",
+    "options": ["F2", "F5", "F6", "F8"],
+    "answer": "F5"
+  },
+  {
+    "question": "Which is the brain of the computer?",
+    "options": ["CPU", "RAM", "Motherboard", "Hard Disk"],
+    "answer": "CPU"
+  },
+  {
+    "question": "What is the full form of HTTP?",
+    "options": ["HyperText Transfer Protocol", "Hyper Transfer Text Protocol", "HighText Transfer Protocol", "Hyper Transfer Test Protocol"],
+    "answer": "HyperText Transfer Protocol"
+  },
+  {
+    "question": "Which part of the computer is used for storing data permanently?",
+    "options": ["RAM", "ROM", "Hard Disk", "Cache"],
+    "answer": "Hard Disk"
+  },
+  {
+    "question": "What is the shortcut key to copy text?",
+    "options": ["Ctrl + X", "Ctrl + C", "Ctrl + V", "Ctrl + Z"],
+    "answer": "Ctrl + C"
+  },
+  {
+    "question": "Which device is used to print documents?",
+    "options": ["Monitor", "Keyboard", "Printer", "Scanner"],
+    "answer": "Printer"
+  },
+  {
+    "question": "What is the binary number for decimal 5?",
+    "options": ["101", "110", "111", "100"],
+    "answer": "101"
+  },
+  {
+    "question": "Which is the smallest unit of data in a computer?",
+    "options": ["Bit", "Byte", "Kilobyte", "Megabyte"],
+    "answer": "Bit"
+  },
+  {
+    "question": "Which operating system is developed by Microsoft?",
+    "options": ["Linux", "Windows", "MacOS", "Android"],
+    "answer": "Windows"
+  }
+]
