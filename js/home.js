@@ -39,6 +39,7 @@ function renderScienceQuestion(){
                     <input type="radio" name="answer${no}" value="${x.options[1]}"> ${x.options[1]}<br>
                     <input type="radio" name="answer${no}" value="${x.options[2]}"> ${x.options[2]}<br>
                     <input type="radio" name="answer${no}" value="${x.options[3]}"> ${x.options[3]}<br><br>
+                    <span id="correct${no}" class="right"></span>
                 `);
                 no++;
             });
@@ -61,6 +62,9 @@ function checkScience() {
         let selected = $(`input[name="answer${qNum}"]:checked`).val();
         if (selected == question.answer) {
             score++;
+        }
+        else{
+            $(`#correct${qNum}`).html(`<i class="fa-solid fa-xmark"></i> ${question.answer}`);
         }
     });
      let message = "";
@@ -91,6 +95,7 @@ function renderMathsQuestion() {
                     <input type="radio" name="answer${no}" value="${x.options[1]}"> ${x.options[1]}<br>
                     <input type="radio" name="answer${no}" value="${x.options[2]}"> ${x.options[2]}<br>
                     <input type="radio" name="answer${no}" value="${x.options[3]}"> ${x.options[3]}<br><br>
+                    <span id="correct${no}" class="right"></span>
                 `);
                 no++;
             });
@@ -112,6 +117,9 @@ function checkMaths() {
         let selected = $(`input[name="answer${qNum}"]:checked`).val();
         if (selected == question.answer) {
             score++;
+        }
+        else{
+            $(`#correct${qNum}`).html(`<i class="fa-solid fa-xmark"></i> ${question.answer}`);
         }
     });
      let message = "";
@@ -140,6 +148,7 @@ function renderHindiQuestion(){
                     <input type="radio" name="answer${no}" value="${x.options[1]}"> ${x.options[1]}<br>
                     <input type="radio" name="answer${no}" value="${x.options[2]}"> ${x.options[2]}<br>
                     <input type="radio" name="answer${no}" value="${x.options[3]}"> ${x.options[3]}<br><br>
+                    <span id="correct${no}" class="right"></span>
                 `);
                 no++;
             });
@@ -161,6 +170,9 @@ function checkHindi() {
         let selected = $(`input[name="answer${qNum}"]:checked`).val();
         if (selected == question.answer) {
             score++;
+        }
+        else{
+            $(`#correct${qNum}`).html(`<i class="fa-solid fa-xmark"></i> ${question.answer}`);
         }
     });
     let message = "";
@@ -189,6 +201,7 @@ function renderComputerQuestion(){
                     <input type="radio" name="answer${no}" value="${x.options[1]}"> ${x.options[1]}<br>
                     <input type="radio" name="answer${no}" value="${x.options[2]}"> ${x.options[2]}<br>
                     <input type="radio" name="answer${no}" value="${x.options[3]}"> ${x.options[3]}<br><br>
+                    <span id="correct${no}" class="right"></span>
                 `);
                 no++;
             });
@@ -209,6 +222,9 @@ function checkComputer() {
         let selected = $(`input[name="answer${qNum}"]:checked`).val();
         if (selected == question.answer) {
             score++;
+        }
+        else{
+            $(`#correct${qNum}`).html(`<i class="fa-solid fa-xmark"></i> ${question.answer}`);
         }
     });
     let message = "";
@@ -237,6 +253,7 @@ function renderGKQuestion(){
                     <input type="radio" name="answer${no}" value="${x.options[1]}"> ${x.options[1]}<br>
                     <input type="radio" name="answer${no}" value="${x.options[2]}"> ${x.options[2]}<br>
                     <input type="radio" name="answer${no}" value="${x.options[3]}"> ${x.options[3]}<br><br>
+                    <span id="correct${no}" class="right"></span>
                 `);
                 no++;
             });
@@ -259,6 +276,9 @@ function checkGK() {
         let selected = $(`input[name="answer${qNum}"]:checked`).val();
         if (selected == question.answer) {
             score++;
+        }
+    else{
+            $(`#correct${qNum}`).html(`<i class="fa-solid fa-xmark"></i> ${question.answer}`);
         }
     });
     let message = "";
